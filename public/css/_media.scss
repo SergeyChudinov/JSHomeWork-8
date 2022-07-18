@@ -1,0 +1,448 @@
+@media (max-width:1140px){
+    .header{
+        .header-top{
+            .menu{
+                padding: 0 15px;
+                .menu-right{
+                    .div-basket{
+                        .span-basket{
+                            right: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content{  
+        .content-top{
+            .cover{
+                padding:0 15px;
+                .man{
+                }
+                .brand{
+                    .brand-div{
+                        .the-brand{
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 44px;
+                            line-height: 50px;
+                            color: #222222;
+                            .luxerious{
+                                font-family: Lato;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 28px;
+                                line-height: 34px;    
+                                color: #222222;
+                            }
+                            .fashion{
+                                font-family: Lato;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 28px;
+                                line-height: 34px;    
+                                color: #F26376;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content-div{
+            padding:0 15px;
+            .card-box{
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+            .card-accesories-a{
+                .card-accesories{
+                    .accesories-div{
+                        height: 116px;
+                    }
+                }
+            }
+        }       
+        .product{
+            .item{
+                width: 48%; 
+            }
+        }
+        .content-arrivals{
+            .content-arrivals-block{
+                padding:0 15px;
+            }
+        }
+        .filter-block{
+            padding:0 15px;
+            justify-content: space-between;
+            .filter{
+
+            }
+            .trending{
+                flex-grow: 1;
+                justify-content: flex-end;
+            }
+        }
+        .content-registration{
+            padding:0 15px;
+            .registration-left{
+                .registration-left-p{
+                    width: 100%;
+                }
+            }
+            .registration-right{
+                width: 35%;
+                .registration-h{
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                }
+                .registration-p{
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                }
+                .registration-ul{
+                    .registration-li{
+                        .registration-p-2{
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #000000;
+                        }
+                    }
+
+                }
+            }
+        }
+        .content-cart{
+            padding:0 15px;
+            flex-direction: column;
+            .content-cart-left{
+                width: 100%;
+                .content-cart-left-block{
+                    .cart-img-block{
+                        width: 80%;
+                    }
+                }
+                .content-cart-left-block-button{
+                    justify-content: center;
+                    .content-cart-left-block-button-left{
+                        margin-right: 50px;
+                    }
+                }
+            }
+            .content-cart-right{
+                display: flex;
+                width: 100%;
+                .shopping-adress{
+                    width: 50%;
+                    .cart-text{
+                        width: 90%;
+                    }
+                }
+                .content-cart-right-block{
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .footer-top{
+            height: 610px;
+            .icons{
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+        .footer-center{
+            height: 768px;
+            
+            .footer-center-blocK{
+                flex-direction: column;
+                margin-top: 55px;
+                margin-bottom: 140px;
+                justify-content: center;
+                .footer-center-block-left{
+                    align-items: center;
+                }
+                .footer-center-block-right{
+                    margin-top: 50px;
+                    .footer-center-block-right-top{
+                        display: flex;
+                        .subscribe-block{
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .footer-bottom{
+            padding:0 15px;
+        }
+    }
+}
+@media (max-width:768px){
+    .header{
+        .header-top{
+            .menu{
+                padding: 0 15px;
+                .menu-right{
+                    .person , .div-basket{
+                        display: none;
+                    } 
+                }
+            }
+        }
+    }
+    .content{  
+        .content-top{
+            min-height: 375px;
+            
+            .cover{
+                padding-top: 150px;
+                .man{
+                    display: none;
+                }
+                .brand{
+                    
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    .brand-div{
+                        .background{
+                            height: 66px;
+                        }
+                        .the-brand{
+                            margin-left: 8px;
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 34px;
+                            line-height: 42px;                      
+                            color: #222222;
+                            .luxerious{
+                                font-family: Lato;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 28px;    
+                                color: #222222;
+                            }
+                            .fashion{
+                                font-family: Lato;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 28px;    
+                                color: #F26376;
+                            }
+                        }  
+                    }
+                }
+            }
+        }
+        .content-div{
+            padding:0 15px;
+            .card-box{
+                margin-top: 25px;
+                margin-bottom: 10px;
+                flex-wrap: wrap;
+                .card-box-a{
+                    margin-top: 25px;
+                    width: 100%;
+                }
+            }
+            .card-accesories-a{
+
+                .card-accesories{
+
+                    .accesories-div{
+                        height: 111px;
+                    }
+                }
+            }
+        }       
+        .product{
+            .item{
+                width: 100%; 
+            }
+        }
+        .content-women-collection{
+            .content-women-collection-block{
+                width: 326px;
+                .women-collection-border{
+
+                }
+                .details-block{
+                    summary{
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10px;
+                        line-height: 12px;
+                        color: #6F6E6E;
+                    }
+                }
+            }
+        }
+        .content-registration{
+            flex-direction: column;
+            padding:0 15px;
+            .registration-left{
+                width: 98%;
+                .registration-text ,.email ,.password{
+                    width: 100%;
+                }
+            }
+            .registration-right{
+                width: 98%;
+                margin-top: 40px;
+            }
+        }
+        .content-cart{
+            .content-cart-left{
+                width: 100%;
+                .content-cart-left-block{
+                    .cart-img{
+                        width: 144px;
+                    }
+                    .cart-img-block{
+                        .cart-img-text{
+                            .content-cart-h3{
+                                width: 140px;
+                                font-family: Lato;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 19px;                              
+                                color: #222222;
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                            }
+                            .content-cart-p{
+                                font-family: Lato;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 17px;                              
+                                color: #575757;
+                            }
+                            .quantity{
+                                font-family: Lato;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 17px;
+                                color: #575757;
+                            }
+                        }
+                    }
+                }
+                .content-cart-left-block-button{
+                    .content-cart-left-block-button-left{
+                    }
+                }
+            }
+            .content-cart-right{
+                flex-direction: column;
+                .shopping-adress{
+                    width: 100%;
+                    .cart-text{
+                    }
+                }
+                .content-cart-right-block{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .footer{
+        .footer-center{
+            height: 768px;
+            justify-content: center;
+            .footer-center-blocK{
+                .footer-center-block-right{
+                    .footer-center-block-right-bottom{
+                        .enter-your-block{
+                            .enter-your-email{
+                                .email{
+                                    width: 200px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:425px){
+    .content{
+        .content-top{
+            .cover{
+                .brand{
+                    
+                    .the-brand{
+                        margin-left: 8px;
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 30px;
+                        line-height: 38px;                      
+                        color: #222222;
+                        .luxerious{
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 24px;    
+                            color: #222222;
+                        }
+                        .fashion{
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 24px;    
+                            color: #F26376;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        .footer-center{
+            .footer-center-blocK{
+                .footer-center-block-right{
+                    .footer-center-block-right-bottom{
+                        .enter-your-block{
+                            .enter-your-email{
+                                .email{
+                                    width: 175px;
+                                }
+                            }
+                            .subscribe{
+                                .subscribe-button{
+                                    width: 80px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
